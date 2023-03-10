@@ -14,3 +14,5 @@ docker run jenkins -p 9080:8080 -d
 docker ls
 docker logs -f
 git remote add origin https://github.com/srikanth2687/jenkins-pipeline.git
+
+"${mvnHome}/bin/mvn -B  clean install"
